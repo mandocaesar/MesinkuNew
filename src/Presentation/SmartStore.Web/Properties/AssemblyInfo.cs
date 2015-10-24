@@ -1,2 +1,2 @@
 ﻿using System.Reflection;
-[assembly: AssemblyTitle("SmartStore.Web")]
+//[assembly: AssemblyTitle("SmartStore.Web")]

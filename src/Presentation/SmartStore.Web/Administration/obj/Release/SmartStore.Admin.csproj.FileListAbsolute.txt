@@ -1,0 +1,1 @@
+C:\Users\LuckyStarlish\Source\Repos\MesinkuNew2\src\Presentation\SmartStore.Web\Administration\obj\Release\SmartStore.Admin.csprojResolveAssemblyReference.cache
