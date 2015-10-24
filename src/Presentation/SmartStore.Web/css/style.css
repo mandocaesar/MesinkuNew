@@ -3026,3 +3026,27 @@ nav li:hover > ul {
 	background-position:center;
 }
 }
+
+.block-category-navigation .sub-level-2 {
+  line-height: 17px;
+  font-size: 12px;
+    background-color: #a4a4a3 !important;
+}
+.block-category-navigation .sub-level-3 > li {
+  line-height: 16px !important;
+  background-color: #a4a4a3 !important;
+}
+.block-category-navigation .sub-level-3 ul {
+  font-size: 1em !important;
+  background-color: #a4a4a3 !important;
+}
+
+nav ul, nav li {
+    margin-left: 0 !important;
+    padding-left: 20px !important;
+    list-style-type: none !important;
+}
+
+#content-left > div.block.block-bordered.block-category-navigation {
+    height: 250px;
+}
