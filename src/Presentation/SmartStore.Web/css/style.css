@@ -110,12 +110,14 @@ blockquote p {
 	font-size:12px;
 	line-height:50px;
 	color:#fff;
+    opacity:0;
 }
 .loader img{
 	-webkit-animation:k3d 3.5s infinite linear;
 	-moz-animation:k3d 3.5s infinite linear;
 	-o-animation:k3d 3.5s infinite linear;
-	animation:k3d 3.5s infinite linear
+	animation:k3d 3.5s infinite linear;
+    opacity:0;
 }
 @-webkit-keyframes k3d {
   0% {
@@ -193,7 +195,7 @@ blockquote p {
 	top:0;
 	left:0;
 	z-index:2;
-	opacity:0;
+	opacity:1; /*tadinya 0*/
 }
 #wrapper{
 	float:left;
@@ -475,6 +477,7 @@ header{
 .logo-vis {
 	position:relative;
 	z-index:1;
+    /*margin-top:-25px; /*tambahan*/
 	-webkit-transition: all 300ms linear;
     -moz-transition: all 300ms linear;
     -o-transition: all 300ms linear;
@@ -487,6 +490,7 @@ header{
 	left:0;
 	z-index:2;
 	opacity:0;
+   /* margin-top:-25px; /*tambahan*/
 	-webkit-transition: all 300ms linear;
     -moz-transition: all 300ms linear;
     -o-transition: all 300ms linear;
@@ -507,6 +511,7 @@ header.sticky .header-inner:before , header.flat-header .header-inner:before {
 header.sticky .header-inner {
 	top:-40px;
 	padding:25px 0;
+    height:150px;
 }
 /*------ Navigation  ------------------------------------------------*/
 .nav-holder {
@@ -1056,10 +1061,12 @@ article {
 	width:56px;
 	height:24px;
 	margin:10px auto 10px;
-	background:url(../images/separator.png) no-repeat center;
+	background:url(../images/LogoWhite.png) no-repeat center;
  }
 .color-separator {
-	background:url(../images/color-separator.png) no-repeat center;
+	background:url(../images/LogoGold.png) no-repeat center;
+    width:56px;
+    height:56px;
 }
 .work-time {
 	margin:0 auto;

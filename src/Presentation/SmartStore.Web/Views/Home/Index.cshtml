@@ -68,10 +68,10 @@
                     <!--logo-->
                     <div class="logo-holder">
                         <a href="#">
-                            <p class="respimg logo-vis">Espresso Mesin</p>
-                            <p class="respimg logo-notvis">Espresso Mesin</p>
-                            @*<img src="/images/logo.png" class="respimg logo-vis" alt="">
-                            <img src="/images/logo2.png" class="respimg logo-notvis" alt="">*@
+                            @*<p class="respimg logo-vis">Espresso Mesin</p>
+                            <p class="respimg logo-notvis">Espresso Mesin</p>*@
+                            <img src="/images/logoMiniWhite.png" class="respimg logo-vis" alt="">
+                            <img src="/images/LogoGambar.png" class="respimg logo-notvis" alt="">
                         </a>
                     </div>
                     <!--Navigation -->
@@ -88,9 +88,11 @@
                                         <li><a href="#">Drop down </a></li>
                                     </ul>*@
                                 </li>
-                                @*<li><a href="#">Menu</a></li>*@
-                                @*<li><a href="#">Gallery</a></li>
-                                <li><a href="#">Reservation</a></li>*@
+                                <li><a href="#aboutus">Our Story</a></li>
+                                <li><a href="#openinghour">Opening Hour</a></li>
+                                <li><a href="#showroom">Our Showroom</a></li>
+                                <li><a href="#contact">Our Contact</a></li>
+                                <li><a href="#location">Our Location</a></li>
                                 <li><a href="/storeclosed">Shop</a></li>@*/newproducts*@
                             </ul>
                         </nav>
@@ -107,11 +109,11 @@
                     <!-- slideshow -->
                     <div class="slides-container">
                         <!-- 1 -->
-                        <div class="bg" style="background-image: url(images/bg/1.jpg)"></div>
+                        <div class="bg" style="background-image: url(images/bg/slider.jpg)"></div>
                         <!-- 2 -->
-                        <div class="bg" style="background-image: url(images/bg/28.jpg)"></div>
+                        <div class="bg" style="background-image: url(images/bg/slider.jpg)"></div>
                         <!-- 3 -->
-                        <div class="bg" style="background-image: url(images/bg/8.jpg)"></div>
+                        <div class="bg" style="background-image: url(images/bg/slider.jpg)"></div>
                     </div>
                 </div>
                 <div class="hero-title-holder">
@@ -121,7 +123,8 @@
                             <div class="half-circle"></div>
                         </div>
                         <div class="separator color-separator"></div>
-                        <h3>Welcome to Espresso Mesin</h3>
+                        <h3>Welcome to</h3>
+                        <h3>Espresso Mesin</h3>
                         <h4>Place to Buy Good Coffee Machines and Parts</h4>
                     </div>
                 </div>
@@ -133,7 +136,7 @@
             <div class="content">
                 <!--=============== About ===============-->
                 <section class="about-section" id="sec1">
-                    <div class="container">
+                    <div class="container" id="aboutus">
                         <div class="row">
                             <!--about text-->
                             <div class="col-md-6">
@@ -173,13 +176,13 @@
                     </div>
                 </section>
                 <!--=============== Opening Hours ===============-->
-                <section class="parallax-section">
+                <section class="parallax-section" id="openinghour">
                     <div class="media-container video-parallax" data-top-bottom="transform: translateY(300px);" data-bottom-top="transform: translateY(-300px);">
                         <div class="bg mob-bg" style="background-image: url(images/bg/18.jpg)"></div>
                         <div class="video-container">
-                            <video autoplay loop muted class="bgvid">
+                            @*<video autoplay loop muted class="bgvid">
                                 <source src="video/1.html" type="video/mp4">
-                            </video>
+                            </video>*@
                         </div>
                     </div>
                     <div class="overlay"></div>
@@ -193,32 +196,33 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <h2>SHOP</h2>
-                                    <h3>Monday to Saturday</h3>
+                                    <h3>Monday to Saturday*</h3>
                                     <div class="hours">
                                         09:00<br>
-                                        18:00
-                                    </div>
+                                        17:00
+                                        <br/><h5>*Saturday By Appointment</h5>
+                                    </div>                                    
                                 </div>
                                 <div class="col-md-6">
-                                    <h2>SERVICE CENTRE</h2>
-                                    <h3>Monday to Friday</h3>
-                                    <div class="hours">
+                                    <h2>SERVICE CENTER</h2>
+                                    <h3>24 Hours</h3>
+                                    @*<div class="hours">
                                         09:00<br>
                                         15:00
-                                    </div>
+                                    </div>*@
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <div class="big-number"><a href="#">(+621) 723 71 72</a></div>
+                                <div class="big-number"><a href="#">(+628) 18 0610 1360</a></div>                                
                             </div>
                         </div>
                     </div>
                 </section>
                 <!--section end-->
-                <!--=============== About 2 ===============-->
-                <section class="about-section">
+                <!--=============== About 2 (Showroom) ===============-->
+                <section class="about-section" id="showroom">
                     <!-- triangle decoration-->
                     <div class="triangle-decor">
                     </div>
@@ -249,7 +253,7 @@
                             <div class="col-md-6">
                                 <div class="section-title">
                                     <h3>OUR SHOWROOMS</h3>
-                                    <h4 class="decor-title">Natoque penatibus</h4>
+                                    <h4 class="decor-title">Espresso Mesin</h4>
                                     <div class="separator color-separator"></div>
                                 </div>
                                 <p>Our showroom is located at Green Lake Garden Park, Tangerang, South Jakarta. 15 minutes exit from central Jakarta highway and it’s located at the very strategic position.</p>
@@ -447,6 +451,107 @@
                     </div>
                 </section>*@
                 <!--section end-->
+
+                <!--section start-->
+                <section class="parallax-section" id="sec6">
+                    <div class="bg bg-parallax" style="background-image:url(images/bg/32.jpg)" data-top-bottom="transform: translateY(300px);" data-bottom-top="transform: translateY(-300px);"></div>
+                    <div class="overlay"></div>
+                    <div class="container" id="contact">
+                        <h2>Our contact</h2>
+                        <h3>Where to find us</h3>
+                    </div>
+                </section>
+                <section>
+                    <div class="triangle-decor"></div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="contact-details">
+                                    <h3>Contact info</h3>
+                                    <ul>
+                                        <li><a href="#"><h4>General:</h4> Info@espressomesin.com</a></li>
+                                        <li><a href="#"><h4>Costumer Service:</h4> CustService@Espressomesin.com</a></li>
+                                        <li><a href="#"><h4>Service:</h4> Service@EspressoMesin.com</a></li>
+                                        <li><a href="#"><h4>Order:</h4> Order@espressomesin.com</a></li>
+                                    </ul>                                    
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="contact-details">
+                                    <h4>Espresso Mesin Address &amp; Phone Number</h4>
+                                    <ul>
+                                        <li><a href="#">Jl. Kebon Sirih No.63, Jakarta 10340, Indonesia</a></li>
+                                        <li><a href="#">(+621) 723 71 72</a></li>
+                                    </ul>
+                                </div>
+                                @*<div class="contact-details">
+                                    <h4>Lambert - Washington</h4>
+                                    <ul>
+                                        <li><a href="#">27th Brooklyn New York, NY 10065</a></li>
+                                        <li><a href="#">+7(111)123456789</a></li>
+                                        <li><a href="#">yourmail@domain.com</a></li>
+                                    </ul>
+                                </div>*@
+                            </div>
+                            @*<div class="col-md-3">
+                                <div class="contact-details">
+                                    <h4>Lambert - Florida</h4>
+                                    <ul>
+                                        <li><a href="#">27th Brooklyn New York, NY 10065</a></li>
+                                        <li><a href="#">+7(111)123456789</a></li>
+                                        <li><a href="#">yourmail@domain.com</a></li>
+                                    </ul>
+                                </div>
+                            </div>*@
+                        </div>
+                        <div class="bold-separator">
+                            <span></span>
+                        </div>
+                        <!--section end-->
+                        <!--section start-->
+                        <div class="row" id="location">
+                            <div class="col-md-12">
+                                <div class="section-title">
+                                    <h3>Our location</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="no-padding">
+                    <div class="map-box">
+                        <div class="map-holder" data-top-bottom="transform: translateY(300px);" data-bottom-top="transform: translateY(-300px);">
+                            <div id="map-canvas"></div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="triangle-decor"></div>
+                    @*<div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="section-title">
+                                    <h3>Get in Touch</h3>
+                                    <h4 class="decor-title">Write us</h4>
+                                    <div class="separator color-separator"></div>
+                                </div>
+                                <div class="contact-form-holder">
+                                    <div id="contact-form">
+                                        <div id="message2"></div>
+                                        <form method="post" action="http://lambert.kwst.net/site/php/contact.php" name="contactform" id="contactform">
+                                            <input name="name" type="text" class="name" onclick="this.select()" value="Name">
+                                            <input name="email" type="text" class="email" onclick="this.select()" value="E-mail">
+                                            <input name="phone" type="text" class="phone" onclick="this.select()" value="Phone">
+                                            <textarea name="comments" class="comments" onclick="this.select()">Message</textarea>
+                                            <button type="submit" id="submit">Send </button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>*@
+                </section>
+                <!--section end-->
             </div>
             <!--content end-->
             <!--=============== footer ===============-->
@@ -455,7 +560,7 @@
                     <div class="container">
                         <div class="row">
                             <!--tiwtter-->
-                            @*<div class="col-md-4">
+                            <div class="col-md-4">
                                 <div class="footer-info">
                                     <h4>Our twitter</h4>
                                     <div class="twitter-holder">
@@ -471,20 +576,20 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>*@
+                            </div>
                             <!--footer social links-->
-                            @*<div class="col-md-4">
+                            <div class="col-md-4">
                                 <div class="footer-social">
-                                    <h3>Find us</h3>
+                                    <h3>find us</h3>
                                     <ul>
                                         <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
                                         <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                                        <li><a href="http://websta.me/n/espressomesin" target="#" ="_blank"><i class="fa fa-instagram"></i></a></li>
                                         <li><a href="#" target="_blank"><i class="fa fa-pinterest"></i></a></li>
                                         <li><a href="#" target="_blank"><i class="fa fa-tumblr"></i></a></li>
                                     </ul>
                                 </div>
-                            </div>*@
+                            </div>
                             <!--subscribe form-->
                             @*<div class="col-md-4">
                                 <div class="footer-info">
@@ -505,7 +610,7 @@
                         <!--footer contacts links -->
                         <ul class="footer-contacts">
                             <li><a href="#">(+621) 723 71 72</a></li>
-                            <li><a href="#">Jl. Kebon Sirih No.63, Jakarta Barat 10340</a></li>
+                            <li><a href="#">Jl. Kebon Sirih No.63, Jakarta 10340</a></li>
                             <li><a href="#">edward@espressomesin.com</a></li>
                         </ul>
                     </div>

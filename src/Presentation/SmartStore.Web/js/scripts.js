@@ -1,10 +1,10 @@
 // Page preload ------------------
 $(window).load(function() {
     "use strict";
-    $(".loader").fadeOut(500, function() {
+    $(".loader").fadeOut(0, function() {
         $("#main").animate({
             opacity: "1"
-        }, 500);
+        }, 0);
     });
 });
 // all functions ------------------
@@ -278,24 +278,12 @@ function initLambert() {
         marker: {
 			// markers and locations------------------
             values: [ {
-                latLng: [ 40.7143528, -74.0059731 ],
-                data: "Lambert  - New York City",
+                latLng: [-6.183541, 106.826853],
+                data: "Espresso Mesin",
                 options: {
-                    icon: "images/marker.png"
+                    icon: "images/LogoGold.png"
                 }
-            }, {
-                latLng: [ 40.7168183, -73.9973402 ],
-                data: "Lambert - Washington",
-                options: {
-                    icon: "images/marker.png"
-                }
-            }, {
-                latLng: [ 40.73334016, -73.99330616 ],
-                data: "Lambert - Florida",
-                options: {
-                    icon: "images/marker.png"
-                }
-            } ],
+            }],
             options: {
                 draggable: false
             },
@@ -627,7 +615,7 @@ function initparallax() {
     };
     trueMobile = a.any();
     if (null == trueMobile) {
-        var b = $(".content");
+        var b = $("#main");// var b = $(".content");
         b.find("[data-top-bottom]").length > 0 && b.waitForImages(function() {
             s = skrollr.init();
             s.destroy();
