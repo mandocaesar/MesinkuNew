@@ -982,7 +982,7 @@ header.sticky nav a , header.sticky .subnav a  , header.flat-header .nav-social 
 	z-index:20;
 }
 .mob-bg {
-	display:none;
+	/*display:none;*/
 }
 /*------ Page title  ------------------------------------------------*/
 .page-title {
