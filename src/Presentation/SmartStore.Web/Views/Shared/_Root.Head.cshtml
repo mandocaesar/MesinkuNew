@@ -93,7 +93,6 @@
     <meta name="description" content="@(Html.SmartMetaDescription())" />
     <meta name="keywords" content="@(Html.SmartMetaKeywords())" />
     <meta name="generator" content="SmartStore.NET @SmartStoreVersion.CurrentFullVersion" />
-
     @*This is used so that themes can inject content into the header*@
     @Html.Partial("Head")
 
@@ -113,6 +112,13 @@
     @Html.Action("Favicon", "Common", new { area = "" })
 	@Html.CustomHead()
     <!--Powered by SmartStore.net - http://www.smartstore.com-->
+
+    @*<link type="text/css" rel="stylesheet" href="/css/reset.css">
+    <link type="text/css" rel="stylesheet" href="/css/plugins.css">
+    <link type="text/css" rel="stylesheet" href="/css/style.css">
+    <link type="text/css" rel="stylesheet" href="/css/color.css">
+    <script type="text/javascript" src="/js/plugins.js"></script>
+    <script type="text/javascript" src="/js/scripts.js"></script>*@
 </head>
 <body class="@Html.BodyCssClass()"@(Html.BodyId())>
     @RenderBody()

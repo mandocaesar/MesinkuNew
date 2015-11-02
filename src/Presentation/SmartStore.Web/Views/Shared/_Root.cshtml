@@ -9,7 +9,8 @@
     {
         @RenderSection("header")
     }
-    else {
+    else
+    {
         <section id="header">
             @Html.Action("ShopBar", "Common", new { area = "" })
             @Html.Action("Header", "Common", new { area = "" })
@@ -35,7 +36,8 @@
     {
         @RenderSection("footer")
     }
-    else {
+    else
+    {
         <div id="footer-wrapper">
             @Html.Action("Footer", "Common", new { area = "" })
         </div>
