@@ -4,7 +4,7 @@
 @using SmartStore.Services.Localization;
 @using SmartStore.Core.Domain.Localization;
 @{
-    //Layout = "~/Views/Shared/_Root.cshtml";
+    Layout = "~/Views/Shared/_Root.cshtml";
     Html.AddBodyCssClass("lyt-cols-3");
 
     string[] spanWidths = GetThemeVariable<string>("GridSettings", "5/14/5").Split('/');
@@ -67,90 +67,8 @@
             @Html.Widget("right_side_column_after")
         }
     </div>*@
-@{
-    var currentUICulture = System.Threading.Thread.CurrentThread.CurrentUICulture;
-    var localizationService = EngineContext.Current.Resolve<ILocalizationService>();
-
-    // add css assets
-    Html.AppendCssFileParts(
-        "~/Content/font-awesome.css",
-        "~/Content/jquery.pnotify.default.css",
-        "~/Content/jquery.pnotify.default.icons.css");
-
-    Html.AppendScriptParts(ResourceLocation.Head,
-        "~/Scripts/modernizr-2.7.2.js",
-        "~/Scripts/jquery-2.1.1.js",
-        "~/Scripts/jquery-migrate-1.2.1.js",
-        "~/Scripts/globalize/globalize.js");
-
-    Html.AddScriptParts(ResourceLocation.Head, true,
-        "~/Scripts/globalize/cultures/globalize.culture.{0}.js".FormatInvariant(currentUICulture.ToString()));
-
-    var bootstrapJsRoot = "~/Content/bootstrap/js/";
-    Html.AppendScriptParts(ResourceLocation.Foot,
-        // jQuery UI Core
-        "~/Scripts/jquery-ui/effect.js",
-        "~/Scripts/jquery-ui/effect-transfer.js",
-        "~/Scripts/jquery-ui/effect-shake.js",
-        "~/Scripts/jquery-ui/position.js",
-        // jQuery Validation
-        "~/Scripts/jquery.unobtrusive-ajax.js",
-        "~/Scripts/jquery.validate.js",
-        "~/Scripts/jquery.validate.unobtrusive.js",
-        // SmartStore system
-        "~/Scripts/smartstore.system.js",
-        "~/Scripts/underscore.js",
-        "~/Scripts/underscore.string.js",
-        "~/Scripts/underscore.mixins.js",
-        "~/Scripts/smartstore.jquery.utils.js",
-        "~/Scripts/jquery.ba-outside-events.js",
-        "~/Scripts/jquery.preload.js",
-        "~/Scripts/jquery.transit.js",
-        "~/Scripts/jquery.menu-aim.js",
-        "~/Scripts/smartstore.doAjax.js",
-        "~/Scripts/jquery.addeasing.js",
-        "~/Scripts/smartstore.eventbroker.js",
-        "~/Scripts/smartstore.hacks.js",
-        "~/Scripts/smartstore.common.js",
-        // Bootstrap
-        bootstrapJsRoot + "bootstrap-transition.js",
-        bootstrapJsRoot + "bootstrap-alert.js",
-        bootstrapJsRoot + "bootstrap-button.js",
-        bootstrapJsRoot + "bootstrap-collapse.js",
-        bootstrapJsRoot + "bootstrap-dropdown.js",
-        bootstrapJsRoot + "bootstrap-modal.js",
-        bootstrapJsRoot + "bootstrap-tooltip.js",
-        bootstrapJsRoot + "bootstrap-popover.js",
-        bootstrapJsRoot + "bootstrap-tab.js",
-        bootstrapJsRoot + "bootstrap-typeahead.js",
-        // Bootstrap custom
-        bootstrapJsRoot + "custom/bootstrap-datetimepicker.js",
-        // Shared UI
-        "~/Scripts/smartstore.placeholder.js",
-        "~/Scripts/select2.js",
-        "~/Scripts/smartstore.selectwrapper.js",
-        "~/Scripts/smartstore.throbber.js",
-        "~/Scripts/smartstore.navbar.js",
-        "~/Scripts/smartstore.thumbzoomer.js",
-        "~/Scripts/smartstore.column-equalizer.js",
-        "~/Scripts/smartstore.shrinkmenu.js",
-        "~/Scripts/smartstore.scrollbutton.js",
-        "~/Scripts/jquery.pnotify.js",
-        "~/Scripts/jquery.scrollTo.js",
-        "~/Scripts/jquery.serialScroll.js",
-        "~/Scripts/smartstore.globalize.adapter.js",
-        // Shop
-        "~/Scripts/public.common.js",
-        "~/Scripts/public.ajaxcart.js",
-        "~/Scripts/public.shopbar.js",
-        "~/Scripts/public.product-list-scroller.js",
-        "~/Scripts/public.product-filter.js");
-}
-
 <!DOCTYPE html>
 <html lang="en">
-
-<!-- Mirrored from lambert.kwst.net/site/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 09 Oct 2015 12:49:46 GMT -->
 <head>
     <!--=============== basic  ===============-->
     <meta charset="UTF-8">
@@ -171,6 +89,11 @@
 
     <script type="text/javascript" src="/Scripts/jquery-migrate-1.2.1.js"></script>
     <script type="text/javascript" src="/Scripts/globalize/globalize.js"></script>
+    <style>
+        header.sticky .header-inner {
+            height:230px;
+        }
+    </style>
     @Html.MetaAcceptLanguage()
     @Html.Partial("_ClientRes")
 </head>
@@ -216,12 +139,12 @@
                                                 <li><a href="#">Drop down </a></li>
                                             </ul>
                                     </li>*@
+                                <li>@Html.Action("ShopBar", "Common", new { area = "" })</li>
                                 <li><a href="/home">Home</a></li>
                                 <li><a href="/newproducts">Product</a></li>
                                 <li><a href="/cart">Cart</a></li>
                             </ul>
-                        </nav>
-                        @Html.Action("ShopBar", "Common", new { area = "" })
+                        </nav>                        
                     </div>
 
                 </div>
@@ -282,11 +205,11 @@
                                     @Html.Action("ManufacturerNavigation", "Catalog", new { currentManufacturerId = this.CurrentManufacturerId, area = "" })
                                     @Html.Widget("left_side_column_after_manufacturer_navigation")
 
-                                    @Html.Action("PopularProductTags", "Catalog", new { area = "" })
+                                    @*@Html.Action("PopularProductTags", "Catalog", new { area = "" })
                                     @Html.Widget("left_side_column_after_tags")
 
                                     @Html.Action("InfoBlock", "Common", new { area = "" })
-                                    @Html.Widget("left_side_column_after_info")
+                                    @Html.Widget("left_side_column_after_info")*@
 
                                     @Html.Action("PollBlock", "Poll", new { systemKeyword = "LeftColumnPoll", area = "" })
                                     @Html.Widget("left_side_column_after_poll")

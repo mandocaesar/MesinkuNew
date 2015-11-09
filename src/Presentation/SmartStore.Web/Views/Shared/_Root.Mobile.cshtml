@@ -1,4 +1,4 @@
-﻿@{
+﻿@*@{
     Layout = "~/Views/Shared/_Root.Head.cshtml";
 }
 @Html.Widget("mobile_body_start_html_tag_after")
@@ -9,8 +9,8 @@
     </div>
 
     <div data-role="header" data-position="inline">
-        @*do not use @Html.Partial("Header")
-            use sections right here so they can be overriden in the views*@
+        do not use @Html.Partial("Header")
+            use sections right here so they can be overriden in the views
         @if (IsSectionDefined("top-left-button"))
         {
             @RenderSection("top-left-button")
@@ -20,7 +20,7 @@
             <a href="@Url.RouteUrl("HomePage")" data-icon="home">@T("Common.Home")</a>
         }
 
-        @*title*@
+        title
         <h1>@Html.SmartTitle(false)</h1>
         @if (IsSectionDefined("top-right-button"))
         {
@@ -28,7 +28,7 @@
         }
         else
         {
-            @*<a href="#" data-rel="back" data-icon="back">Back</a>*@
+            <a href="#" data-rel="back" data-icon="back">Back</a>
             @Html.Action("ConfigButton", "Common", new { area = "" })
         }
     </div>
@@ -59,4 +59,57 @@
         </div>
     }
 </div>
-@Html.Widget("mobile_body_end_html_tag_after")
+@Html.Widget("mobile_body_end_html_tag_after")*@
+
+@{
+    Layout = "~/Views/Shared/_Root.Head.cshtml";
+}
+@Html.Widget("body_start_html_tag_after")
+@Html.Partial("_Notifications")
+<div id="page">
+
+    @*@if (IsSectionDefined("header"))
+        {
+            @RenderSection("header")
+        }
+        else
+        {
+            <section id="header">
+                @Html.Action("ShopBar", "Common", new { area = "" })
+                @Html.Action("Header", "Common", new { area = "" })
+                @Html.Action("MegaMenu", "Catalog", new { currentCategoryId = this.CurrentCategoryId, currentProductId = this.CurrentProductId, area = "" })
+            </section>
+        }*@
+
+    @Html.Action("JavaScriptDisabledWarning", "Common", new { area = "" })
+    <div id="content-wrapper">
+
+        @RenderBody()
+        <!-- Terms of service -->
+        <section id="content" class="container drop-shadow lifted">
+            @* @Html.Widget("content_before")*@
+            @*@RenderSection("teaser", required: false)*@
+
+            @*<div id="content-body" class="row">
+
+                    @Html.Widget("content_after")
+                </div>*@
+        </section>
+    </div>
+
+    @*@if (IsSectionDefined("footer"))
+        {
+            @RenderSection("footer")
+        }
+        else
+        {
+            <div id="footer-wrapper">
+                @Html.Action("Footer", "Common", new { area = "" })
+            </div>
+        }*@
+
+</div>
+@Html.Widget("body_end_html_tag_before")
+
+
+
