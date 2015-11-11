@@ -278,7 +278,7 @@ function initLambert() {
         marker: {
 			// markers and locations------------------
             values: [ {
-                latLng: [-6.183541, 106.826853],
+                latLng: [-6.178516, 106.711355],
                 data: "Espresso Mesin",
                 options: {
                     icon: "images/LogoGold.png"
@@ -324,7 +324,7 @@ function initLambert() {
                 scaleControl: true,
                 scrollwheel: false,
                 streetViewControl: true,
-                draggable: true,
+                draggable: false,
                 styles: [ {
                     featureType: "all",
                     elementType: "labels.text",

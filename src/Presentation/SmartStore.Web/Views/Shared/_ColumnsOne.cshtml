@@ -147,11 +147,10 @@
                                 <li><a href="/home">Home</a></li>
                                 <li><a href="/newproducts">Product</a></li>
                                 <li><a href="/cart">Cart</a></li>
+                                @Html.Action("ShopBar", "Common", new { area = "" })
                             </ul>
-                        </nav>
-                        @Html.Action("ShopBar", "Common", new { area = "" })
+                        </nav>                       
                     </div>
-
                 </div>
             </div>
 
