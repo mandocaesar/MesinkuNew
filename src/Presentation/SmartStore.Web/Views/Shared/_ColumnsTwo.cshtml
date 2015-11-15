@@ -1,71 +1,9 @@
-﻿@using SmartStore.Core;
-@using SmartStore.Core.Infrastructure;
-@using SmartStore.Core.Infrastructure.DependencyManagement;
-@using SmartStore.Services.Localization;
-@using SmartStore.Core.Domain.Localization;
-@{
+﻿@{
     Layout = "~/Views/Shared/_Root.cshtml";
     Html.AddBodyCssClass("lyt-cols-2");
     string[] spanWidths = GetThemeVariable<string>("GridSettings", "5/14/5").Split('/');
 }
-@*@section teaser {
-      @RenderSection("teaser", required: false)
-    }
 
-    <div id="content-left" class="span@(spanWidths[0])">
-        @if (IsSectionDefined("left"))
-        {
-            @RenderSection("left")
-        }
-        else
-        {
-            @Html.Widget("left_side_column_before")
-
-            @Html.Action("CategoryNavigation", "Catalog", new { currentCategoryId = this.CurrentCategoryId, currentProductId = this.CurrentProductId, area = "" })
-            @Html.Widget("left_side_column_after_category_navigation")
-
-            @Html.Action("ManufacturerNavigation", "Catalog", new { currentManufacturerId = this.CurrentManufacturerId, area = "" })
-            @Html.Widget("left_side_column_after_manufacturer_navigation")
-
-            @Html.Action("PopularProductTags", "Catalog", new { area = "" })
-            @Html.Widget("left_side_column_after_tags")
-
-            @Html.Action("InfoBlock", "Common", new { area = "" })
-            @Html.Widget("left_side_column_after_info")
-
-            @Html.Action("PollBlock", "Poll", new { systemKeyword = "LeftColumnPoll", area = "" })
-            @Html.Widget("left_side_column_after_poll")
-
-            @Html.Widget("left_side_column_after")
-        }
-    </div>
-    <div id="content-center" class="span@(spanWidths[1])">
-        @Html.Widget("main_column_before")
-        @RenderBody()
-        @Html.Widget("main_column_after")
-    </div>
-    <div id="content-right" class="span@(spanWidths[2])">
-        @if (IsSectionDefined("right_top"))
-        {
-            @RenderSection("right_top", false)
-        }
-
-        @if (IsSectionDefined("right"))
-        {
-            @RenderSection("right")
-        }
-        else
-        {
-            @Html.Widget("right_side_column_before")
-
-            @Html.Action("RecentlyViewedProductsBlock", "Catalog", new { area = "" })
-            @Html.Widget("right_side_column_after_recentlyviewed")
-            @Html.Action("PollBlock", "Poll", new { systemKeyword = "RightColumnPoll", area = "" })
-            @Html.Widget("right_side_column_after_poll")
-
-            @Html.Widget("right_side_column_after")
-        }
-    </div>*@  
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -83,11 +21,6 @@
     <link type="text/css" rel="stylesheet" href="/css/color.css">
     <!--=============== favicons ===============-->
     <link rel="shortcut icon" href="/images/favicon.ico">
-    <script type="text/javascript" src="/Scripts/jquery-2.1.1.js"></script>
-    <script type="text/javascript" src="/Scripts/modernizr-2.7.2.js"></script>
-
-    <script type="text/javascript" src="/Scripts/jquery-migrate-1.2.1.js"></script>
-    <script type="text/javascript" src="/Scripts/globalize/globalize.js"></script>
     <style>
         header.sticky .header-inner {
             height: 230px;
@@ -186,33 +119,29 @@
                 <!--=============== About ===============-->
                 <section class="about-section" id="sec1">
                     <div class="container">
-                        <div class="row">
-                            <div id="content-left" class="span@(spanWidths[0])">
-                                @if (IsSectionDefined("left"))
-                                {
-                                    @RenderSection("left")
-                                }
-                                else
-                                {
-                                    @Html.Widget("left_side_column_before")
 
-                                    @Html.Action("CategoryNavigation", "Catalog", new { currentCategoryId = this.CurrentCategoryId, currentProductId = this.CurrentProductId, area = "" })
-                                    @Html.Widget("left_side_column_after_category_navigation")
+                        <div id="content-left" class="span@(spanWidths[0])">
+                            @if (IsSectionDefined("left"))
+                            {
+                                @RenderSection("left")
+                            }
+                            else
+                            {
+                                @Html.Widget("left_side_column_before")
 
-                                    @Html.Action("ManufacturerNavigation", "Catalog", new { currentManufacturerId = this.CurrentManufacturerId, area = "" })
-                                    @Html.Widget("left_side_column_after_manufacturer_navigation")
+                                @Html.Action("CategoryNavigation", "Catalog", new { currentCategoryId = this.CurrentCategoryId, currentProductId = this.CurrentProductId, area = "" })
+                                @Html.Widget("left_side_column_after_category_navigation")
 
-                                    @Html.Widget("left_side_column_after")
-                                }
-                            </div>
-                            <!--(Convert.ToInt16(spanWidths[1]) + Convert.ToInt16(spanWidths[2])) omega-->
-                            <div id="content-center" class="span@(Convert.ToInt16(spanWidths[1]) + Convert.ToInt16(spanWidths[2])) omega">
-                                @Html.Widget("main_column_before")
-                                @RenderBody()
-                                @Html.SmartCssFiles(this.Url, ResourceLocation.Foot)
-                                @Html.SmartScripts(this.Url, ResourceLocation.Foot)
-                                @Html.Widget("main_column_after")
-                            </div>
+                                @Html.Action("ManufacturerNavigation", "Catalog", new { currentManufacturerId = this.CurrentManufacturerId, area = "" })
+                                @Html.Widget("left_side_column_after_manufacturer_navigation")
+
+                                @Html.Widget("left_side_column_after")
+                            }
+                        </div>
+                        <div id="content-center" class="span@(Convert.ToInt16(spanWidths[1]) + Convert.ToInt16(spanWidths[2])) omega">
+                            @Html.Widget("main_column_before")
+                            @RenderBody()
+                            @Html.Widget("main_column_after")
                         </div>
                     </div>
                 </section>
@@ -298,6 +227,7 @@
     @*<script type="text/javascript" src="/js/jquery.min.js"></script>*@
     <script type="text/javascript" src="/js/plugins.js"></script>
     <script type="text/javascript" src="/js/scripts.js"></script>
+    
 </body>
 
 <!-- Mirrored from lambert.kwst.net/site/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 09 Oct 2015 12:49:55 GMT -->

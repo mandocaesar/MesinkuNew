@@ -5,18 +5,18 @@
 @Html.Partial("_Notifications")
 <div id="page">
 
-    @*@if (IsSectionDefined("header"))
+   @if (IsSectionDefined("header"))
     {
         @RenderSection("header")
     }
-    else
-    {
-        <section id="header">
-            @Html.Action("ShopBar", "Common", new { area = "" })
-            @Html.Action("Header", "Common", new { area = "" })
-            @Html.Action("MegaMenu", "Catalog", new { currentCategoryId = this.CurrentCategoryId, currentProductId = this.CurrentProductId, area = "" })
-        </section>
-    }*@
+    @* else
+        {
+            <section id="header">
+                @Html.Action("ShopBar", "Common", new { area = "" })
+                @Html.Action("Header", "Common", new { area = "" })
+                @Html.Action("MegaMenu", "Catalog", new { currentCategoryId = this.CurrentCategoryId, currentProductId = this.CurrentProductId, area = "" })
+            </section>
+        }*@
 
     @Html.Action("JavaScriptDisabledWarning", "Common", new { area = "" })
     <div id="content-wrapper">
@@ -25,7 +25,7 @@
         <!-- Terms of service -->
         <section id="content" class="container drop-shadow lifted">
            @* @Html.Widget("content_before")*@
-            @*@RenderSection("teaser", required: false)*@
+            @RenderSection("teaser", required: false)
            
             @*<div id="content-body" class="row">
                
