@@ -26,39 +26,40 @@
             {
                 @Html.ValidationSummary(true)
             }
+            
+            <div id="visible-pane">
+                <div class="control-group">
+                    @Html.LabelFor(model => model.SenderEmail, new { @class = "control-label required", @for = "SenderEmail" })
+                    <div class="controls">
+                        @Html.TextBoxFor(model => model.SenderEmail)
+                        @Html.ValidationMessageFor(model => model.SenderEmail)
+                    </div>
+                </div>
 
-            <div class="control-group">
-                @Html.LabelFor(model => model.SenderEmail, new { @class="control-label required" , @for="SenderEmail" } )
-                <div class="controls">
-                    @Html.TextBoxFor(model => model.SenderEmail)
-                    @Html.ValidationMessageFor(model => model.SenderEmail)
+                <div class="control-group">
+                    @Html.LabelFor(model => model.SenderName, new { @class = "control-label required", @for = "SenderName" })
+                    <div class="controls">
+                        @Html.TextBoxFor(model => model.SenderName)
+                        @Html.ValidationMessageFor(model => model.SenderName)
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    @Html.LabelFor(model => model.SenderPhone, new { @class = "control-label", @for = "SenderPhone" })
+                    <div class="controls">
+                        @Html.TextBoxFor(model => model.SenderPhone, new { placeholder = T("Common.Optional") })
+                        @Html.ValidationMessageFor(model => model.SenderPhone)
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    @Html.LabelFor(model => model.Question, new { @class = "control-label required", @for = "Question" })
+                    <div class="controls">
+                        @Html.TextAreaFor(model => model.Question, new { style = "width:80%; height:150px" })
+                        @Html.ValidationMessageFor(model => model.Question)
+                    </div>
                 </div>
             </div>
-
-            <div class="control-group">
-                @Html.LabelFor(model => model.SenderName, new { @class="control-label required" , @for="SenderName" } )
-                <div class="controls">
-                    @Html.TextBoxFor(model => model.SenderName)
-                    @Html.ValidationMessageFor(model => model.SenderName)
-                </div>
-            </div>
-
-            <div class="control-group">
-                @Html.LabelFor(model => model.SenderPhone, new { @class="control-label" , @for="SenderPhone" } )
-                <div class="controls">
-                    @Html.TextBoxFor(model => model.SenderPhone, new { placeholder = T("Common.Optional") })
-                    @Html.ValidationMessageFor(model => model.SenderPhone)
-                </div>
-            </div>
-
-            <div class="control-group">
-                @Html.LabelFor(model => model.Question, new { @class="control-label required" , @for="Question" } )
-                <div class="controls">
-                    @Html.TextAreaFor(model => model.Question, new { style = "width:80%; height:150px" })
-                    @Html.ValidationMessageFor(model => model.Question)
-                </div>
-            </div>
-
             @if (Model.DisplayCaptcha)
             {
                 <div class="control-group">
@@ -83,3 +84,11 @@
 
     </div>
 </div>
+<script>
+    var isVisible ="@Session["Visible"]";
+    if(isVisible == "True"){
+        $("#visible-pane").hide();
+    }else{
+        $("#visible-pane").hide();
+    }
+</script>

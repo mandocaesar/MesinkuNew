@@ -967,7 +967,7 @@ namespace SmartStore.Web.Controllers
 			{
 				Id = id
 			};
-
+            
 			return PartialView(model);
 		}
 
@@ -1022,6 +1022,7 @@ namespace SmartStore.Web.Controllers
 				if (result > 0)
 				{
 					this.NotifySuccess(T("Products.AskQuestion.Sent"), true);
+                    Session["Visible"] = true;
 					return RedirectToRoute("Product", new { SeName = product.GetSeName() });
 				}
 				else
