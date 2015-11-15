@@ -61,7 +61,7 @@
         </div>
 
         <!-- WISHLIST -->
-        @if (Model.WishlistEnabled)
+        @*@if (Model.WishlistEnabled)
         {
             <div class="shopbar-divider"></div>
             
@@ -77,14 +77,14 @@
                     </span>
                     <span class="sm-arrow"></span>
                 </a>                
-                <div class="shopbar-flyout" id="shopbar-flyout-wishlist" data-href='@Url.Action("FlyoutWishlist", "ShoppingCart")'>
+                <div class="shopbar-flyout" id="shopbar-flyout-wishlist" data-href='@Url.Action("FlyoutWishlist", "ShoppingCart")'>*@
                     @*@Html.Action("WishlistDropdown", "ShoppingCart")*@
-                </div>
+                @*</div>
             </div>
-        } 
+        }*@ 
 
         <!-- COMPARE -->
-        @if (Model.CompareProductsEnabled)
+        @*@if (Model.CompareProductsEnabled)
         {
             <div class="shopbar-divider"></div>
             
@@ -100,14 +100,14 @@
                     </span>
                     <span class="sm-arrow"></span>
                 </a>
-                <div class="shopbar-flyout" id="shopbar-flyout-compare" data-href='@Url.Action("FlyoutCompare", "Catalog")'>
+                <div class="shopbar-flyout" id="shopbar-flyout-compare" data-href='@Url.Action("FlyoutCompare", "Catalog")'>*@
                     @*@Html.Action("CompareDropdown", "Catalog")*@
-                </div>
+                @*</div>
             </div>
-        }
+        }*@
 
         <!-- SEARCH -->
-        @Html.Action("SearchBox", "Catalog")
+        @*@Html.Action("SearchBox", "Catalog")*@
 
     </div>
 </div> 

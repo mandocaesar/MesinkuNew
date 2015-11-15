@@ -243,7 +243,7 @@ blockquote p {
 	left:0;
 	width:100%;
 	height:100%;
-	background:#000;
+	/*background:#000;*/
 	opacity:0.2;
 	z-index:2;
 }
@@ -931,7 +931,7 @@ header.sticky nav a , header.sticky .subnav a  , header.flat-header .nav-social 
 	font-size:18px;
 }
 .hero-title h3 {
-	font-size:38px;
+	font-size:35px;
 	letter-spacing:2px;
 	position:relative;
 	width:100%;
@@ -3052,8 +3052,22 @@ nav ul, nav li {
     margin-left: 0 !important;
     padding-left: 20px !important;
     list-style-type: none !important;
+    z-index:1001;
 }
 
 #content-left > div.block.block-bordered.block-category-navigation {
     height: 250px;
+}
+
+.shopbar-button{
+    color:white;
+    text-shadow:none;
+}
+
+.btn-warning{
+    background-color:#5F4747;
+}
+
+.btn-warning:hover{
+    background-color:#5F4747;
 }
