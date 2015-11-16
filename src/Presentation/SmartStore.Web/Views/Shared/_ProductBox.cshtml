@@ -18,7 +18,7 @@
 	var productDetailLink = Url.RouteUrl("Product", new RouteValueDictionary { { "SeName", Model.SeName } });
 }
 
-@if (showQuicklinks)
+@*@if (showQuicklinks)
 {
     <div class="quicklinks">        
         @if (!Model.ProductPrice.DisableWishListButton)
@@ -47,7 +47,7 @@
 			</a>
 		}
     </div>
-}
+}*@
 
 <figure class="picture" data-equalized-part="picture" data-equalized-valign="true">
     <a href="@productDetailLink" title="@Model.DefaultPictureModel.Title">

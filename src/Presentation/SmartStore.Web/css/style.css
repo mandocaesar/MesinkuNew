@@ -517,7 +517,7 @@ header.sticky .header-inner {
 .nav-holder {
 	float:right;
 	position:relative;
-	margin-top:20px;
+	/*margin-top:20px;*/
 }
 nav {
 	position:relative;
@@ -530,7 +530,7 @@ nav li{
 	padding: 10px 22px;
 }
 nav li a {
-	float: left;
+	float: right;
 	line-height: 1;
 	font-size: 13px;
 	text-transform: uppercase;
@@ -602,7 +602,7 @@ nav li:hover > ul {
 	margin: 0;
 }
 nav li:last-child {
-	padding-right:0;
+	/*padding-right:0;*/
 }
 .nav-button-holder {
 	float:right;
@@ -3064,10 +3064,10 @@ nav ul, nav li {
     text-shadow:none;
 }
 
-.btn-warning{
+.input-append .btn-warning{
     background-color:#5F4747;
 }
 
-.btn-warning:hover{
+.input-append .btn-warning:hover{
     background-color:#5F4747;
 }

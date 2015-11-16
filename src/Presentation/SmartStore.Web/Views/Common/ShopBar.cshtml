@@ -1,29 +1,31 @@
 ﻿@model ShopBarModel
 @using SmartStore.Web.Models.Common;
 
-<div id="shopbar" style="position:relative;top:0;" class="clearfix">
+@*<div style="position:relative;top:0;" class="clearfix">
 
-    <div style="max-width:1224px;width:92%;margin:0 auto; position:relative;z-index:2;">
+    <div style="max-width:1224px;width:92%;margin:0 auto; position:relative;z-index:2;">*@
        
         @if (Model.ShoppingCartEnabled)
         {
             <!-- CART -->
-            <div class="shopbar-tool pull-left" id="shopbar-cart">
-                <a class="shopbar-button clearfix" data-target="shopbar-flyout-cart" href="@Url.RouteUrl("ShoppingCart")" data-summary-href='@Url.Action("ShoppingCartSummary", "ShoppingCart")'>
-                    <figure class="shopbar-button-icon pull-left">
-                        <i data-icon="8" class="sm-icon-x"></i>
-                        <span class='label @(GetThemeVariable<string>("ShopBarLabel")) @(Model.ShoppingCartItems == 0 ? "hide" : "")' data-bind-to="TotalProducts">@Model.ShoppingCartItems</span>
-                    </figure>
-                    <span class="shopbar-button-label pull-left">
-                        <span>@T("ShoppingCart.Totals.SubTotal"): <span data-bind-to="SubTotal">@Model.ShoppingCartAmount</span></span><br />
-                        <span style="font-weight: bold">@T("Common.Shopbar.Basket") <i class="fa fa-caret-down"></i></span>
-                    </span>
-                    <span class="sm-arrow"></span>
-                </a>                
-                <div class="shopbar-flyout" id="shopbar-flyout-cart" data-href='@Url.Action("FlyoutShoppingCart", "ShoppingCart")'>
-                    @*@Html.Action("FlyoutShoppingCart", "ShoppingCart")*@
-                </div>
+    <li>
+        <div class="shopbar-tool pull-left" id="shopbar-cart" style="float:none !important;">
+            <a class="shopbar-button clearfix" data-target="shopbar-flyout-cart" href="@Url.RouteUrl("ShoppingCart")" data-summary-href='@Url.Action("ShoppingCartSummary", "ShoppingCart")' style="float:right;">
+                <figure class="shopbar-button-icon pull-left">
+                    <i data-icon="8" class="sm-icon-x"></i>
+                    <span class='label @(GetThemeVariable<string>("ShopBarLabel")) @(Model.ShoppingCartItems == 0 ? "hide" : "")' data-bind-to="TotalProducts">@Model.ShoppingCartItems</span>
+                </figure>
+                <span class="shopbar-button-label pull-left">
+                    <span>@T("ShoppingCart.Totals.SubTotal"): <span data-bind-to="SubTotal">@Model.ShoppingCartAmount</span></span><br />
+                    <span style="font-weight: bold">@T("Common.Shopbar.Basket") <i class="fa fa-caret-down"></i></span>
+                </span>
+                <span class="sm-arrow"></span>
+            </a>
+            <div class="shopbar-flyout" id="shopbar-flyout-cart" data-href='@Url.Action("FlyoutShoppingCart", "ShoppingCart")'>
+                @*@Html.Action("FlyoutShoppingCart", "ShoppingCart")*@
             </div>
+        </div>
+    </li>
         }
 
         @{
@@ -31,34 +33,36 @@
         }
 
         <!-- ACCOUNT -->
-        <div class="shopbar-tool pull-right loaded" id="shopbar-account">
-			<a class='shopbar-button clearfix@(!Model.IsAuthenticated ? " no-drop" : "")' data-target="shopbar-flyout-account" href="@accountUrl" rel="nofollow">
-				<figure class="shopbar-button-icon pull-left">
-					<i class="sm-icon-user-5"></i>
-				</figure>
-				<span class="shopbar-button-label pull-left">
-					@if (Model.IsAuthenticated)
-					{
-						<span>@Model.CustomerEmailUsername</span><br />
-						<span style="font-weight: bold">
-							@T("Account.MyAccount")
-							<i class="fa fa-caret-down"></i>
-						</span>
-					}
-					else
-					{
-						<span>@T("Common.Shopbar.GuestGreeting")</span><br />
-						<span style="font-weight: bold">@T("Account.Login")</span>
-					}
-				</span>
-				<span class="sm-arrow"></span>
-			</a>
+<li style="float:right;">
+    <div class="shopbar-tool pull-right loaded" id="shopbar-account" style="float:none !important;">
+        <a class='shopbar-button clearfix@(!Model.IsAuthenticated ? " no-drop" : "")' data-target="shopbar-flyout-account" href="@accountUrl" rel="nofollow" style="float:right;">
+            <figure class="shopbar-button-icon pull-left">
+                <i class="sm-icon-user-5"></i>
+            </figure>
+            <span class="shopbar-button-label pull-left">
+                @if (Model.IsAuthenticated)
+                {
+                    <span>@Model.CustomerEmailUsername</span><br />
+                    <span style="font-weight: bold">
+                        @T("Account.MyAccount")
+                        <i class="fa fa-caret-down"></i>
+                    </span>
+                }
+                else
+                {
+                    <span>@T("Common.Shopbar.GuestGreeting")</span><br />
+                    <span style="font-weight: bold">@T("Account.Login")</span>
+                }
+            </span>
+            <span class="sm-arrow"></span>
+        </a>
 
-            @if (Model.IsAuthenticated) 
-            {
-                @Html.Action("AccountDropdown", "Common")
-            }
-        </div>
+        @if (Model.IsAuthenticated)
+        {
+            @Html.Action("AccountDropdown", "Common")
+        }
+    </div>
+</li>
 
         <!-- WISHLIST -->
         @*@if (Model.WishlistEnabled)
@@ -109,5 +113,5 @@
         <!-- SEARCH -->
         @*@Html.Action("SearchBox", "Catalog")*@
 
-    </div>
-</div> 
+    @*</div>
+</div>*@ 

@@ -11,6 +11,12 @@
     
     // add css assets
     Html.AppendCssFileParts(
+        "/css/reset.css",
+        //"/css/plugins.css",
+        "/css/style.css",
+        "/css/color.css");
+        
+    Html.AppendCssFileParts(
 		"~/Content/font-awesome.css",
         "~/Content/jquery.pnotify.default.css",
         "~/Content/jquery.pnotify.default.icons.css");
@@ -83,6 +89,7 @@
         "~/Scripts/public.shopbar.js",
         "~/Scripts/public.product-list-scroller.js",
 		"~/Scripts/public.product-filter.js");
+
 }
 <!DOCTYPE html>
 <html @Html.Partial("LanguageAttributes")>
@@ -98,7 +105,7 @@
 
 	@Html.MetaAcceptLanguage()
     @Html.Partial("_ClientRes")
-
+    
     @Html.SmartCssFiles(this.Url, ResourceLocation.Head)
     @Html.SmartScripts(this.Url, ResourceLocation.Head)
 
@@ -112,6 +119,17 @@
     @Html.Action("Favicon", "Common", new { area = "" })
 	@Html.CustomHead()
     <!--Powered by SmartStore.net - http://www.smartstore.com-->
+    <link rel="shortcut icon" href="/images/favicon.ico">
+    <style>
+        header.sticky .header-inner {
+            height: 160px;
+        }
+
+        .page-title {
+            max-width: 100%;
+        }
+    </style>
+
 </head>
 <body class="@Html.BodyCssClass()"@(Html.BodyId())>
     @RenderBody()
