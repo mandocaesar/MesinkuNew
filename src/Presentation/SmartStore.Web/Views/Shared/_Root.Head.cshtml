@@ -12,8 +12,8 @@
     // add css assets
     Html.AppendCssFileParts(
         "/css/reset.css",
-        //"/css/plugins.css",
-        "/css/style.css",
+        "/css/plugins.css",
+        "/css/custom.css",
         "/css/color.css");
         
     Html.AppendCssFileParts(
@@ -120,6 +120,7 @@
 	@Html.CustomHead()
     <!--Powered by SmartStore.net - http://www.smartstore.com-->
     <link rel="shortcut icon" href="/images/favicon.ico">
+    <link href="~/css/custom.css" rel="stylesheet" />
     <style>
         header.sticky .header-inner {
             height: 160px;
@@ -127,6 +128,9 @@
 
         .page-title {
             max-width: 100%;
+        }
+        li{
+            line-height:normal;
         }
     </style>
 

@@ -1070,6 +1070,7 @@
     <Content Include="css\color.css" />
     <Content Include="css\plugins.css" />
     <Content Include="css\reset.css" />
+    <Content Include="css\custom.css" />
     <Content Include="css\style.css" />
     <Content Include="favicon.ico" />
     <Content Include="Content\install\install.less" />

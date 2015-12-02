@@ -9,8 +9,18 @@
     Html.AddTitleParts(T("PageTitle.Checkout").Text);
 }
 @section orderProgress{
-    @Html.Action("CheckoutProgress", "Checkout", new { step = CheckoutProgressStep.Address })
 }
+@Html.Action("CheckoutProgress", "Checkout", new { step = CheckoutProgressStep.Shipping })
+<style>
+     header.sticky .header-inner {
+            height: 115px;
+        }
+    * {
+        -webkit-box-sizing: content-box;
+        box-sizing: content-box;
+    }
+</style>
+
 <div class="page shipping-address-page">
     <div class="page-title">
         <h1>@T("Checkout.ShippingAddress")</h1>

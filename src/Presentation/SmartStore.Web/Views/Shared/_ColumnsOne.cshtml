@@ -9,6 +9,10 @@
     Layout = "~/Views/Shared/_Root.cshtml";
     Html.AddBodyCssClass("lyt-cols-1");
 }
+
+@section teaser {
+    @RenderSection("teaser", required: false)
+}
     <!--================= main start ================-->
 <div id="main">
     <!--=============== header ===============-->
@@ -36,7 +40,7 @@
                 </div>
                 <!--Navigation -->
                 <div class="nav-holder col-md-10 col-sm-6 col-xs-12">
-                    <nav>
+                    <nav class="menu">
                         <ul style="float:right;">
                             <li>@Html.Action("SearchBox", "Catalog")</li>
                             <li><a href="/home">Home</a></li>
@@ -62,11 +66,12 @@
                 <!-- slideshow -->
                 <div class="slides-container">
                     <!-- 1 -->
-                    <div class="bg" style="background-image: url(images/bg/slider.jpg)"></div>
+                    <div class="bg"><img src="~/images/bg/slider.jpg" style="width:100%;height:100%;" /></div>
                     <!-- 2 -->
-                    <div class="bg" style="background-image: url(images/bg/slider.jpg)"></div>
-                    <!-- 3 -->
-                    <div class="bg" style="background-image: url(images/bg/slider.jpg)"></div>
+                    <div class="bg"><img src="~/images/bg/slider.jpg" style="width:100%;height:100%;" /></div>
+                    <!-- 2 -->
+                    <div class="bg"><img src="~/images/bg/slider.jpg" style="width:100%;height:100%;" /></div>
+                    <!-- 2 -->
                 </div>
             </div>
             <div class="hero-title-holder">
@@ -88,7 +93,7 @@
             <!--=============== About ===============-->
             <section class="about-section" id="sec1">
                 <div class="container">
-                    <div class="row">
+                    <div class="row">                       
                         <div id="content-center" class="alpha omega col-md-12">
                             @Html.Widget("main_column_before")
                             @RenderBody()
@@ -154,7 +159,7 @@
                     </div>
                     <!--footer contacts links -->
                     <ul class="footer-contacts">
-                        <li><a href="#">(+62) 8 777 8373 566</a></li>
+                        <li><a href="#">(+62) 819 32 707179</a></li>
                         <li><a href="#">Green Lake City Blvd RGL C-8/9, Jakarta Barat 111750, Indonesia</a></li>
                         <li><a href="#">info@espressomesin.com</a></li>
                     </ul>

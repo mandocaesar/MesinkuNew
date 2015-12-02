@@ -11,8 +11,17 @@
 }
 
 @section orderProgress{
-    @Html.Action("CheckoutProgress", "Checkout", new { step = CheckoutProgressStep.Shipping })
 }
+@Html.Action("CheckoutProgress", "Checkout", new { step = CheckoutProgressStep.Shipping })
+<style>
+     header.sticky .header-inner {
+            height: 115px;
+        }
+    * {
+        -webkit-box-sizing: content-box;
+        box-sizing: content-box;
+    }
+</style>
 
 <div class="page shipping-method-page">
     <div class="page-title">

@@ -10,8 +10,9 @@
 
 @using (Html.BeginRouteForm("ProductSearch", FormMethod.Get, new { @class = "form-search pull-right" }))
 {
-    <div class="input-append" style="position: relative">    
+    <div class="input-append" style="position: relative;">    
 		<input type="text"
+               style="-webkit-box-sizing: border-box; box-sizing: border-box;"
 			   id="instantsearch"
 			   placeholder="@T("Search.SearchBox.Tooltip")"
 			   data-minlength="@(Model.SearchTermMinimumLength.ToString())"

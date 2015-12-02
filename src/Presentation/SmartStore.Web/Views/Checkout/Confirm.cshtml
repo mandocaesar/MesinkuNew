@@ -13,8 +13,19 @@
     string terms = string.Format(T("Checkout.TermsOfService.IAccept"), termsLink, "</a>", disclaimerLink);
 }
 @section orderProgress{
-    @Html.Action("CheckoutProgress", "Checkout", new { step = CheckoutProgressStep.Confirm })
 }
+<style>
+     header.sticky .header-inner {
+            height: 115px;
+        }
+    * {
+        -webkit-box-sizing: content-box;
+        box-sizing: content-box;
+    }
+</style>
+@Html.Action("CheckoutProgress", "Checkout", new { step = CheckoutProgressStep.Confirm })
+
+
 <div class="page checkout-confirm-page">
     <div class="page-title">
         <h1>@T("Checkout.ConfirmYourOrder")</h1>

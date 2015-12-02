@@ -9,8 +9,18 @@
     Html.AddTitleParts(T("PageTitle.Checkout").Text);
 }
 @section orderProgress{
-    @Html.Action("CheckoutProgress", "Checkout", new { step = CheckoutProgressStep.Complete })
 }
+<style>
+     header.sticky .header-inner {
+            height: 115px;
+        }
+    * {
+        -webkit-box-sizing: content-box;
+        box-sizing: content-box;
+    }
+</style>
+@Html.Action("CheckoutProgress", "Checkout", new { step = CheckoutProgressStep.Complete })
+
 
 <div class="page checkout-completed-page">
     

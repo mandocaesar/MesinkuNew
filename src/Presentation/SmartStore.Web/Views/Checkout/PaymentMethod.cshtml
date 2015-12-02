@@ -9,8 +9,18 @@
 }
 
 @section orderProgress{
-    @Html.Action("CheckoutProgress", "Checkout", new { step = CheckoutProgressStep.Payment })
 }
+<style>
+     header.sticky .header-inner {
+            height: 115px;
+        }
+    * {
+        -webkit-box-sizing: content-box;
+        box-sizing: content-box;
+    }
+</style>
+@Html.Action("CheckoutProgress", "Checkout", new { step = CheckoutProgressStep.Payment })
+
 
 <div class="page payment-method-page">
     <div class="page-title">
