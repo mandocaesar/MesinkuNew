@@ -1,9 +1,101 @@
 ﻿@model ProductAskQuestionModel
 @using SmartStore.Web.Models.Catalog;
 
-<div class="ask-a-question">
-    <a href="@Url.Action("AskQuestion", new { id = Model.Id })" rel="nofollow">
+<div class="page ask-a-question">
+    @*<a href="@Url.Action("AskQuestion", new { id = Model.Id })" rel="nofollow">
         <i class="fa fa-fw fa-question-circle"></i>
         @T("Products.AskQuestion")
-    </a>
+    </a>*@
+    <div class="page-body">
+
+        @using (Html.BeginForm("AskQuestion", null, FormMethod.Post, new { @class = "form-horizontal" }))
+        {
+
+            <fieldset>
+
+                <legend>
+                    <a href="@Url.RouteUrl("Product", new { SeName = Model.ProductSeName })" class="product">Ask Price @Model.ProductName</a>
+                </legend>
+
+                @if (!ViewData.ModelState.IsValid)
+                {
+                    @Html.ValidationSummary(true)
+                }
+                @if(Session["SuccessMessage"]!=null)
+                {
+                    <div class="validation-summary-success">
+                        <ul>
+                            <li> Your call price question sent successfully</li>
+                        </ul>
+                    </div>
+                    
+                    Session["SuccessMessage"] = null;
+                }
+                *Please register and log-in to easy access for asking price
+                <div id="visible-pane">
+                    <div class="control-group">
+                        <div class="col-sm-4">
+                            @Html.LabelFor(model => model.SenderEmail, new { @class = "control-label required", @for = "SenderEmail" })
+                        </div>
+                        <div class="controls col-sm-8">
+                            @Html.TextBoxFor(model => model.SenderEmail, new { style = "width:100%;" })
+                            @Html.ValidationMessageFor(model => model.SenderEmail)
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <div class="col-sm-4">
+                            @Html.LabelFor(model => model.SenderName, new { @class = "control-label required", @for = "SenderName" })
+                        </div>
+                        <div class="controls col-sm-8">
+                            @Html.TextBoxFor(model => model.SenderName, new { style =  "width:100%;"})
+                            @Html.ValidationMessageFor(model => model.SenderName)
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <div class="col-sm-4">
+                            @Html.LabelFor(model => model.SenderPhone, new { @class = "control-label", @for = "SenderPhone" })
+                        </div>
+                        <div class="controls col-sm-8">
+                            @Html.TextBoxFor(model => model.SenderPhone, new { placeholder = T("Common.Optional"), style = "width:100%;" })
+                            @Html.ValidationMessageFor(model => model.SenderPhone)
+                        </div>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <div class="col-sm-4">
+                        @Html.LabelFor(model => model.Question, new { @class = "control-label required", @for = "Question" })
+                    </div>
+                    <div class="controls col-sm-8">
+                        @Html.TextAreaFor(model => model.Question, new { style = "width:100%; height:150px" })
+                        @Html.ValidationMessageFor(model => model.Question)
+                    </div>
+                </div>
+
+                @if (Model.DisplayCaptcha)
+                {
+                    <div class="control-group">
+                        <div class="controls">
+                            <center>
+                                <div class="captcha-box">
+                                    @Html.Raw(Html.GenerateCaptcha())
+                                </div>
+                            </center>
+                        </div>
+                    </div>
+                }
+
+                <div class="control-group">
+                    <div class="controls">
+                        <button type="submit" name="send-email" class="btn btn-primary center-block">
+                            <i class="fa fa-envelope"></i>&nbsp;@T("Products.CallForPrice")
+                        </button>
+                    </div>
+                </div>
+            </fieldset>
+        }
+
+    </div>
 </div>

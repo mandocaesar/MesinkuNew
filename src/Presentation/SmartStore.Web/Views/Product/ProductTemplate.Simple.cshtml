@@ -245,10 +245,15 @@
 
                             <!-- addd to cart -->
                             <div id="AddToCart" class="@(Model.ProductType == ProductType.BundledProduct ? "bundled-product" : "")">
-                                @{
-            var dataDictAddToCart = new ViewDataDictionary();
-            dataDictAddToCart.TemplateInfo.HtmlFieldPrefix = string.Format("addtocart_{0}", Model.Id);
-            @Html.Partial("_AddToCart", Model, dataDictAddToCart)
+                                @if (Model.ProductPrice.CallForPrice)
+                                {
+                                    @Html.Action("AskQuestionButton", new { id = Model.Id })
+                                }
+                                else
+                                {
+                                    var dataDictAddToCart = new ViewDataDictionary();
+                                    dataDictAddToCart.TemplateInfo.HtmlFieldPrefix = string.Format("addtocart_{0}", Model.Id);
+                                    @Html.Partial("_AddToCart", Model, dataDictAddToCart)
                                 }
                             </div>
 
@@ -264,7 +269,7 @@
                                     </div>
                                 }
                                 @Html.Action("EmailAFriendButton", new { id = Model.Id })
-                                @Html.Action("AskQuestionButton", new { id = Model.Id })
+                               
                                 @*@Html.Action("CompareProductsButton", "Catalog", new { productId = Model.Id })*@
                                 @*@if (!Model.AddToCart.DisableWishlistButton)
                                 {

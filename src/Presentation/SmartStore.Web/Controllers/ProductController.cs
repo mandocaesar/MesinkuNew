@@ -958,21 +958,21 @@ namespace SmartStore.Web.Controllers
 
 		#region Ask product question
 
-		[ChildActionOnly]
-		public ActionResult AskQuestionButton(int id)
-		{
-			if (!_catalogSettings.AskQuestionEnabled)
-				return Content("");
-			var model = new ProductAskQuestionModel()
-			{
-				Id = id
-			};
+        //[ChildActionOnly]
+        //public ActionResult AskQuestionButton(int id)
+        //{
+        //    if (!_catalogSettings.AskQuestionEnabled)
+        //        return Content("");
+        //    var model = new ProductAskQuestionModel()
+        //    {
+        //        Id = id
+        //    };
             
-			return PartialView(model);
-		}
+        //    return PartialView(model);
+        //}
 
 		[RequireHttpsByConfigAttribute(SslRequirement.No)]
-		public ActionResult AskQuestion(int id)
+		public ActionResult AskQuestionButton(int id)
 		{
 			var product = _productService.GetProductById(id);
 			if (product == null || product.Deleted || !product.Published || !_catalogSettings.AskQuestionEnabled)
@@ -984,16 +984,27 @@ namespace SmartStore.Web.Controllers
 			model.Id = product.Id;
 			model.ProductName = product.GetLocalized(x => x.Name);
 			model.ProductSeName = product.GetSeName();
-			model.SenderEmail = customer.Email;
-			model.SenderName = customer.GetFullName();
-			model.SenderPhone = customer.GetAttribute<string>(SystemCustomerAttributeNames.Phone);
+            if (Session["SenderEmailQ"] != null)
+                model.SenderEmail = Session["SenderEmailQ"].ToString();
+            else
+                 model.SenderEmail = customer.Email;
+
+            if (Session["SenderNameQ"] != null)
+                model.SenderName = Session["SenderNameQ"].ToString();
+            else
+                model.SenderName = customer.GetFullName();
+
+            if (Session["SenderPhoneQ"] != null)
+                model.SenderPhone = Session["SenderPhoneQ"].ToString();
+           else
+			    model.SenderPhone = customer.GetAttribute<string>(SystemCustomerAttributeNames.Phone);
 			model.Question = T("Products.AskQuestion.Question.Text").Text.FormatCurrentUI(model.ProductName);
 			model.DisplayCaptcha = _captchaSettings.Enabled && _captchaSettings.ShowOnAskQuestionPage;
 
-			return View(model);
+			return PartialView(model);
 		}
 
-		[HttpPost, ActionName("AskQuestion")]
+		[HttpPost, ActionName("AskQuestionButton")]
 		[CaptchaValidator]
 		public ActionResult AskQuestionSend(ProductAskQuestionModel model, bool captchaValid)
 		{
@@ -1018,12 +1029,16 @@ namespace SmartStore.Web.Controllers
 					model.SenderName,
 					model.SenderPhone,
 					Core.Html.HtmlUtils.FormatText(model.Question, false, true, false, false, false, false));
-
+                Session["SenderEmailQ"] = model.SenderEmail;
+                Session["SenderNameQ"] = model.SenderName;
+                Session["SenderPhoneQ"] = model.SenderPhone;
 				if (result > 0)
 				{
-					this.NotifySuccess(T("Products.AskQuestion.Sent"), true);
+                    //ModelState.AddModelError("", "Your call price question sent successfully");
+                    this.NotifySuccess(T("Products.AskQuestion.Sent"), true);
                     Session["Visible"] = true;
-					return RedirectToRoute("Product", new { SeName = product.GetSeName() });
+                    Session["SuccessMessage"]="Your call price question sent successfully";
+                    return PartialView(model); //RedirectToRoute("Product", new { SeName = product.GetSeName() });
 				}
 				else
 				{
@@ -1037,7 +1052,7 @@ namespace SmartStore.Web.Controllers
 			model.ProductName = product.GetLocalized(x => x.Name);
 			model.ProductSeName = product.GetSeName();
 			model.DisplayCaptcha = _captchaSettings.Enabled && _captchaSettings.ShowOnAskQuestionPage;
-			return View(model);
+			return PartialView(model);
 		}
 
 		#endregion

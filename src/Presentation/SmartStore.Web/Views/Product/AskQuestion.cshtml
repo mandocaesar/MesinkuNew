@@ -26,7 +26,7 @@
             {
                 @Html.ValidationSummary(true)
             }
-            
+            *Please register and log-in to easy access for asking question or price
             <div id="visible-pane">
                 <div class="control-group">
                     @Html.LabelFor(model => model.SenderEmail, new { @class = "control-label required", @for = "SenderEmail" })
@@ -50,23 +50,26 @@
                         @Html.TextBoxFor(model => model.SenderPhone, new { placeholder = T("Common.Optional") })
                         @Html.ValidationMessageFor(model => model.SenderPhone)
                     </div>
-                </div>
-
-                <div class="control-group">
-                    @Html.LabelFor(model => model.Question, new { @class = "control-label required", @for = "Question" })
-                    <div class="controls">
-                        @Html.TextAreaFor(model => model.Question, new { style = "width:80%; height:150px" })
-                        @Html.ValidationMessageFor(model => model.Question)
-                    </div>
+                </div>              
+            </div>
+          
+            <div class="control-group">
+                @Html.LabelFor(model => model.Question, new { @class = "control-label required", @for = "Question" })
+                <div class="controls">
+                    @Html.TextAreaFor(model => model.Question, new { style = "width:80%; height:150px" })
+                    @Html.ValidationMessageFor(model => model.Question)
                 </div>
             </div>
+
             @if (Model.DisplayCaptcha)
             {
                 <div class="control-group">
                     <div class="controls">
-                        <div class="captcha-box">
-                            @Html.Raw(Html.GenerateCaptcha())
-                        </div>
+                        <center>
+                            <div class="captcha-box">
+                                @Html.Raw(Html.GenerateCaptcha())
+                            </div>
+                        </center>
                     </div>
                 </div>
             }
@@ -89,6 +92,6 @@
     if(isVisible == "True"){
         $("#visible-pane").hide();
     }else{
-        $("#visible-pane").hide();
+        $("#visible-pane").show();
     }
 </script>

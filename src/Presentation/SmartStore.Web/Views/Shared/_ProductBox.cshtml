@@ -181,11 +181,11 @@
 			}
 			else
 			{
-				<a class="btn btn-primary add-to-cart-button" rel="nofollow"
+				@*<a class="btn btn-primary add-to-cart-button" rel="nofollow"
 				   href="@Url.Action("AskQuestion", "Product", new RouteValueDictionary { { "id", Model.Id } })"
 				   title="@T("Products.CallForPrice.GoToForm")">
 					<i class="fa fa-envelope"></i>
-				</a>
+				</a>*@
 			}
 		}
         <a href='@Url.RouteUrl("Product", new RouteValueDictionary { { "SeName", Model.SeName } })' class="btn">

@@ -3071,3 +3071,21 @@ nav.menu ul, nav.menu li {
 .input-append .btn-warning:hover{
     background-color:#5F4747;
 }
+
+.validation-summary-success{
+    line-height: 18px;
+    font-size: 13px;
+    color: #2B9D1D;
+}
+.validation-summary-success {
+    padding: 8px 35px 8px 14px;
+    margin-bottom: 20px;
+    background-color: #fcf8e3;
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-left-color: #aaa;
+    border-left-color: rgba(0,0,0,.18);
+    color: #444;
+    color: rgba(0,0,0,.75);
+    background-color: #DEF2DF;
+}
