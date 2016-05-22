@@ -651,8 +651,100 @@ $('#print-btn').on('click', function () {
 
     pdf.setFontSize(16);
     // pdf.text(20, 80 + offset, $('#product-detail-tabs-1')[0].outerText);
-    pdf.fromHTML($('#product-detail-tabs-1')[0], 100, 80 + offset, {'width':400});
+    pdf.fromHTML($('#product-detail-tabs-1')[0], 100, 80 + offset, { 'width': 400 });
     pdf.save($('.product-name').text().trim() + ".pdf");
 
 });
+
+function prepareCart(cart, orderId) {
+
+    var object = {};
+    object.transaction_details = {};
+    object.item_details = [];
+    object.customer_details = {};
+    object.vtweb = {}
+    var items = cart.Items;
+    var customer = cart.OrderReviewData.BillingAddress;
+
+    object.payment_type = "vtweb";
+    object.transaction_details.order_id = orderId;
+    object.transaction_details.gross_amount = cart.gross;
+    object.credit_card_3d_secure = true;
+    object.customer_details.first_name = customer.FirstName;
+    object.customer_details.last_name = customer.Last_name;
+    object.customer_details.email = customer.Email;
+    object.customer_details.phone = customer.PhoneNumber;
+
+    for (var i = 0; i < items.length; i++) {
+        var item = {};
+        item.id = items[i].ProductId;
+        item.price = items[i].UnitPrice;
+        item.quantity = items[i].Quantity;
+        item.name = items[i].ProductName;
+
+        object.item_details.push(item);
+    }
+
+    return object;
+
+}
+
+
+//function preparePayment(obj) {
+//    $.ajax({
+//        url: "http://api.sandbox.veritrans.co.id/v2/charge",
+//        type: "POST",
+//        beforeSend: function (xhr) {
+//            xhr.setRequestHeader("Access-Control-Allow-Origin", "*");
+//            xhr.setRequestHeader("Access-Control-Allow-Headers", "Content-Type");
+//            xhr.setRequestHeader("Access-Control-Allow-Methods", "POST");
+
+//            xhr.setRequestHeader("Content-Type", "application/json");
+//            xhr.setRequestHeader("Accept", "application/json");
+//            xhr.setRequestHeader("Authorization", "Basic VlQtc2VydmVyLVNtTU5CN3FjeHY5dHMzeEJlS2hWT1JqTzo=");
+//        },
+//        data: obj,
+//        dataType: "json"
+//    }).success(function (rs) {
+//        console.log(rs);
+//    });
+//}
+
+function preparePayment(obj) {
+    jQuery.support.cors = true;
+    $.ajax({
+        url: "http://api.sandbox.veritrans.co.id/v2/charge",
+        xhrFields: {
+            withCredentials: true
+        },
+        crossDomain:true,
+        headers: {
+            'Authorization': 'Basic ' + 'VlQtc2VydmVyLVNtTU5CN3FjeHY5dHMzeEJlS2hWT1JqTzo=',
+            'Content-Type': 'application/json',
+            'Accept' : 'application/json',
+            'Access-Control-Allow-Origin': '*'
+            //'Access-Control-Allow-Headers': 'Content-Type, Content-Range, Content-Disposition, Content-Description, Authorization, Accept',
+            //'Access-Control-Allow-Methods': 'DELETE, HEAD, GET, OPTIONS, POST, PUT',
+            //'Access-Control-Allow-Max-Age': '1728000',
+        },
+        type: "POST",
+        data: JSON.stringify(obj)
+    }).success(function(rs) {
+        window.location.href =  rs.redirect_url;
+    }).error(function (rs) {
+        console.log(rs);
+        alert(rs);
+    });
+
+}
+
+function saveCart() {
+    $.get("../../ShoppingCart/GetCartSummary", function (result) {
+        window.localStorage.setItem("cart", JSON.stringify(result));
+    });
+}
+
+function getCart() {
+    return JSON.parse($("#cart").text());
+}
 

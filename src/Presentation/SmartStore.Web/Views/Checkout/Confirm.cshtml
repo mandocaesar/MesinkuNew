@@ -72,6 +72,7 @@
             <script type="text/javascript">
                 $(document).ready(function () {
                     $('#confirm-order-form').submit(function () {
+                        saveCart();
                         $('input[type=submit]', this).attr('disabled', 'disabled');
                     });
                 });

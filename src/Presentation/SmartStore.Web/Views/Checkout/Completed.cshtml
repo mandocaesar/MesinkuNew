@@ -23,29 +23,32 @@
 
 
 <div class="page checkout-completed-page">
+    <span id="poId" style="display:none">@Session["PlaceOrderId"]</span>
+    <span id="total" style="display: none">@Session["Total"]</span>
+    <span id="cart" style="display:none">@Session["cart"]</span>
     
     <div class="page-title">
         <h1 class="text-success">@T("Checkout.OrderHasBeenReceived")</h1>
     </div>
 
-	<h3 class="thank-you">
-		@T("Checkout.ThankYou")
-	</h3>
-    
+    <h3 class="thank-you">
+        @T("Checkout.ThankYou")
+    </h3>
+
     <div class="page-body checkout-data">
         <div class="order-completed">
             @Html.Widget("checkout_completed_top")
             <div class="body">
                 <p>
-                    @T("Checkout.OrderNumber"): 
-					<a href="@Url.Action("Details", "Order", new { id = Model.OrderId })" rel="nofollow">@Model.OrderNumber</a>
+                    @T("Checkout.OrderNumber"):
+                    <a href="@Url.Action("Details", "Order", new {id = Model.OrderId})" rel="nofollow">@Model.OrderNumber</a>
                 </p>
             </div>
             <p class="select-button">
-				<a href="@Url.Action("Details", "Order", new { id = Model.OrderId })" class="btn btn-warning" rel="nofollow">
-					<i class="fa fa-fw fa-list-alt"></i>
-					@T("Checkout.PlacedOrderDetails")
-				</a>
+                <a href="@Url.Action("Details", "Order", new {id = Model.OrderId})" class="btn btn-warning" rel="nofollow">
+                    <i class="fa fa-fw fa-list-alt"></i>
+                    @T("Checkout.PlacedOrderDetails")
+                </a>
                 <a href="@Url.RouteUrl("HomePage")" class="btn order-completed-continue-button">
                     <i class="fa fa-fw fa-home"></i>
                     @T("Checkout.Continue")
@@ -55,3 +58,13 @@
         </div>
     </div>
 </div>
+<script>
+    $(window).load (function() {
+        var cart = getCart();
+        cart.gross = Number($('#total').text());
+        var preparedCart = prepareCart(cart, $('#poId').text());
+
+        preparePayment(preparedCart);
+    });
+
+</script>

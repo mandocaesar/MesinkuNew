@@ -6,6 +6,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
+using Newtonsoft.Json;
 using SmartStore.Core;
 using SmartStore.Core.Caching;
 using SmartStore.Core.Domain.Catalog;
@@ -1472,6 +1473,22 @@ namespace SmartStore.Web.Controllers
 				prepareAndDisplayOrderReviewData: prepareAndDisplayOrderReviewData.HasValue ? prepareAndDisplayOrderReviewData.Value : false);
 
 			return PartialView(model);
+        }
+
+        public JsonResult GetCartSummary()
+        {
+            var cart = _workContext.CurrentCustomer.GetCartItems(ShoppingCartType.ShoppingCart, _storeContext.CurrentStore.Id);
+            var model = new ShoppingCartModel();
+   
+            PrepareShoppingCartModel(model, cart,
+                isEditable: false,
+                prepareEstimateShippingIfEnabled: true,
+                prepareAndDisplayOrderReviewData: true);
+
+            Session["cart"] = JsonConvert.SerializeObject(model);
+
+            return Json(model, JsonRequestBehavior.AllowGet);
+
         }
 
         //update all shopping cart items on the page
