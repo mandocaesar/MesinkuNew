@@ -89,7 +89,7 @@
             <section @*class="about-section" id="sec1"*@>
                 @*<div class="container">
                     <div class="row">*@
-                        <div id="content-left" class="col-md-3">
+                        <div id="content-left" class="col-md-3" style="margin-top:15px;">
                             @if (IsSectionDefined("left"))
                             {
                                 @RenderSection("left")
@@ -123,7 +123,7 @@
                             @Html.SmartScripts(this.Url, ResourceLocation.Foot)
                             @Html.Widget("main_column_after")
                         </div>
-                        <div id="content-right" class="col-md-3">
+                        <div id="content-right" class="col-md-3" style="margin-top:15px;">
                             @if (IsSectionDefined("right_top"))
                             {
                                 @RenderSection("right_top", false)

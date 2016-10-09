@@ -1,0 +1,2 @@
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Tests\SmartStore.Web.MVC.Tests\obj\Debug\SmartStore.Web.MVC.Tests.csprojResolveAssemblyReference.cache
+U:\Repos\MesinkuNew\src\Tests\SmartStore.Web.MVC.Tests\obj\Debug\SmartStore.Web.MVC.Tests.csprojResolveAssemblyReference.cache

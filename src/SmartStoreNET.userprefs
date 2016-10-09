@@ -1,0 +1,12 @@
+﻿<Properties StartupItem="Plugins/SmartStore.DiscountRules/SmartStore.DiscountRules.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Presentation/SmartStore.Web/Controllers/CheckoutController.cs">
+    <Files>
+      <File FileName="Presentation/SmartStore.Web/Controllers/CheckoutController.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

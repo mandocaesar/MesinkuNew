@@ -1,0 +1,140 @@
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\SmartStore.Services.dll.config
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\SmartStore.Services.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\SmartStore.Services.pdb
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\Autofac.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\CronExpressionDescriptor.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\EntityFramework.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\EntityFramework.SqlServer.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\EPPlus.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\Fasterflect.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\ImageResizer.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\ImageResizer.Plugins.PrettyGifs.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\MaxMind.GeoIP.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\Microsoft.Web.Infrastructure.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\NCrontab.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\Newtonsoft.Json.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\NReco.PdfGenerator.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\SmartStore.Core.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\SmartStore.Data.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\System.Linq.Dynamic.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\System.Web.Helpers.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\System.Web.Mvc.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\System.Web.Razor.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\System.Web.WebPages.Deployment.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\System.Web.WebPages.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\System.Web.WebPages.Razor.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\UAParser.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\NuGet.Core.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\Autofac.Integration.Mvc.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\Microsoft.SqlServer.Smo.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\EFCache.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\Microsoft.Web.XmlTransform.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\SmartStore.Core.pdb
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\SmartStore.Data.pdb
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\Autofac.xml
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\EntityFramework.xml
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\EntityFramework.SqlServer.xml
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\EPPlus.xml
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\Fasterflect.xml
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\ImageResizer.xml
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\ImageResizer.Plugins.PrettyGifs.xml
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\Newtonsoft.Json.xml
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\NReco.PdfGenerator.xml
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\System.Web.Helpers.xml
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\System.Web.Mvc.xml
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\System.Web.Razor.xml
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\System.Web.WebPages.xml
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\System.Web.WebPages.Deployment.xml
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\System.Web.WebPages.Razor.xml
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\Autofac.Integration.Mvc.xml
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\de\CronExpressionDescriptor.resources.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\es\CronExpressionDescriptor.resources.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\fr\CronExpressionDescriptor.resources.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\it\CronExpressionDescriptor.resources.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\nl\CronExpressionDescriptor.resources.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\no\CronExpressionDescriptor.resources.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\pt\CronExpressionDescriptor.resources.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\ru\CronExpressionDescriptor.resources.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\tr\CronExpressionDescriptor.resources.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\uk\CronExpressionDescriptor.resources.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\zh-CHS\CronExpressionDescriptor.resources.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\de\System.Web.Helpers.resources.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\de\System.Web.Razor.resources.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\de\System.Web.WebPages.resources.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\de\System.Web.WebPages.Deployment.resources.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\de\System.Web.WebPages.Razor.resources.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\obj\Debug\SmartStore.Services.csprojResolveAssemblyReference.cache
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\obj\Debug\SmartStore.Services.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Services\obj\Debug\SmartStore.Services.pdb
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\SmartStore.Services.dll.config
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\SmartStore.Services.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\SmartStore.Services.pdb
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\Autofac.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\CronExpressionDescriptor.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\EntityFramework.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\EntityFramework.SqlServer.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\EPPlus.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\Fasterflect.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\ImageResizer.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\ImageResizer.Plugins.PrettyGifs.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\MaxMind.GeoIP.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\Microsoft.Web.Infrastructure.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\NCrontab.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\Newtonsoft.Json.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\NReco.PdfGenerator.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\SmartStore.Core.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\SmartStore.Data.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\System.Linq.Dynamic.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\System.Web.Helpers.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\System.Web.Mvc.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\System.Web.Razor.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\System.Web.WebPages.Deployment.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\System.Web.WebPages.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\System.Web.WebPages.Razor.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\UAParser.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\NuGet.Core.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\Autofac.Integration.Mvc.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\Microsoft.SqlServer.Smo.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\EFCache.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\Microsoft.Web.XmlTransform.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\SmartStore.Core.pdb
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\SmartStore.Data.pdb
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\Autofac.xml
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\EntityFramework.xml
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\EntityFramework.SqlServer.xml
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\EPPlus.xml
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\Fasterflect.xml
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\ImageResizer.xml
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\ImageResizer.Plugins.PrettyGifs.xml
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\Newtonsoft.Json.xml
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\NReco.PdfGenerator.xml
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\System.Web.Helpers.xml
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\System.Web.Mvc.xml
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\System.Web.Razor.xml
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\System.Web.WebPages.xml
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\System.Web.WebPages.Deployment.xml
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\System.Web.WebPages.Razor.xml
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\Autofac.Integration.Mvc.xml
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\de\CronExpressionDescriptor.resources.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\es\CronExpressionDescriptor.resources.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\fr\CronExpressionDescriptor.resources.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\it\CronExpressionDescriptor.resources.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\nl\CronExpressionDescriptor.resources.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\no\CronExpressionDescriptor.resources.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\pt\CronExpressionDescriptor.resources.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\ru\CronExpressionDescriptor.resources.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\tr\CronExpressionDescriptor.resources.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\uk\CronExpressionDescriptor.resources.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\zh-CHS\CronExpressionDescriptor.resources.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\de\System.Web.Helpers.resources.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\de\System.Web.Razor.resources.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\de\System.Web.WebPages.resources.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\de\System.Web.WebPages.Deployment.resources.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\bin\Debug\de\System.Web.WebPages.Razor.resources.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\obj\Debug\SmartStore.Services.csprojResolveAssemblyReference.cache
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\obj\Debug\SmartStore.Services.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Services\obj\Debug\SmartStore.Services.pdb

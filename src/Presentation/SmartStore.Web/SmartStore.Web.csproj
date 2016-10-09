@@ -149,7 +149,7 @@
     </Reference>
     <Reference Include="SmartStore.Licensing, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>G:\System\Desktop\SmartStore\bin\SmartStore.Licensing.dll</HintPath>
+      <HintPath>..\..\bin\SmartStore.Licensing.dll</HintPath>
     </Reference>
     <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -212,7 +212,7 @@
     <Reference Include="System.Xml.Linq" />
     <Reference Include="Telerik.Web.Mvc, Version=2012.2.607.340, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>D:\Template\SmartStoreNET-2.x\lib\Telerik\Telerik.Web.Mvc.dll</HintPath>
+      <HintPath>..\..\bin\Telerik.Web.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="WebGrease, Version=1.6.5135.21930, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -1111,6 +1111,7 @@
     <Content Include="images\favicon.ico" />
     <Content Include="images\gallery\1.jpg" />
     <Content Include="images\gallery\1.png" />
+    <Content Include="images\gallery\10.jpg" />
     <Content Include="images\gallery\2.jpg" />
     <Content Include="images\gallery\2.png" />
     <Content Include="images\gallery\3.jpg" />
@@ -1122,6 +1123,7 @@
     <Content Include="images\gallery\6.jpg" />
     <Content Include="images\gallery\7.jpg" />
     <Content Include="images\gallery\8.jpg" />
+    <Content Include="images\gallery\9.jpg" />
     <Content Include="images\grabbing.html" />
     <Content Include="images\loader.png" />
     <Content Include="images\logo.png" />
@@ -2056,7 +2058,6 @@
     <Content Include="Views\Catalog\Shop.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="bin\" />
     <Folder Include="Plugins\SmartStore.AmazonPay\" />
     <Folder Include="Plugins\SmartStore.GoogleMerchantCenter\" />
     <Folder Include="Plugins\SmartStore.PayPal\" />

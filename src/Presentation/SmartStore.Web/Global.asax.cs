@@ -1,10 +1,13 @@
 ﻿using System.Linq;
+using System.Reflection;
 using System.Web;
+using System.Web.Compilation;
 using System.Web.Hosting;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 using System.Web.WebPages;
+using Autofac;
 using FluentValidation.Mvc;
 using SmartStore.Core;
 using SmartStore.Core.Data;
@@ -43,9 +46,10 @@ namespace SmartStore.Web
 			routes.IgnoreRoute("{resource}.ashx/{*pathInfo}");
 			routes.IgnoreRoute(".db/{*virtualpath}");
 
-			// register routes (core, admin, plugins, etc)
-			var routePublisher = EngineContext.Current.Resolve<IRoutePublisher>();
-			routePublisher.RegisterRoutes(routes);
+            // register routes (core, admin, plugins, etc)
+            var routePublisher = EngineContext.Current.Resolve<IRoutePublisher>();
+            
+            routePublisher.RegisterRoutes(routes);
         }
 
         public static void RegisterBundles(BundleCollection bundles)
@@ -56,9 +60,10 @@ namespace SmartStore.Web
         }
 
         protected void Application_Start()
-        {	
-			// we use our own mobile devices support (".Mobile" is reserved). that's why we disable it.
-			var mobileDisplayMode = DisplayModeProvider.Instance.Modes.FirstOrDefault(x => x.DisplayModeId == DisplayModeProvider.MobileDisplayModeId);
+        {
+            //var assemblies = BuildManager.GetReferencedAssemblies().Cast<Assembly>();
+            // we use our own mobile devices support (".Mobile" is reserved). that's why we disable it.
+            var mobileDisplayMode = DisplayModeProvider.Instance.Modes.FirstOrDefault(x => x.DisplayModeId == DisplayModeProvider.MobileDisplayModeId);
             if (mobileDisplayMode != null)
                 DisplayModeProvider.Instance.Modes.Remove(mobileDisplayMode);
 

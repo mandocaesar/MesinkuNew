@@ -1,0 +1,1 @@
+U:\Repos\MesinkuNew\src\Presentation\SmartStore.Web.Framework\obj\Release\SmartStore.Web.Framework.csprojResolveAssemblyReference.cache

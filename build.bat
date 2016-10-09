@@ -13,7 +13,7 @@ GOTO END
 
 :32BIT
 echo 32-bit...
-set MSBuildPath="%ProgramFiles%\MSBuild\12.0\Bin\MSBuild.exe"
+set MSBuildPath="%ProgramFiles%\MSBuild\14.0\Bin\MSBuild.exe"
 GOTO END
 
 :END

@@ -1,0 +1,204 @@
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\SmartStore.Data.dll.config
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\SmartStore.Data.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\SmartStore.Data.pdb
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\Autofac.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\EFCache.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\EntityFramework.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\EntityFramework.SqlServer.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\EntityFramework.SqlServerCompact.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\Microsoft.SqlServer.Smo.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\Newtonsoft.Json.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\SmartStore.Core.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\System.Data.SqlServerCe.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\NuGet.Core.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\System.Web.Mvc.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\Autofac.Integration.Mvc.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\System.Web.WebPages.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\Fasterflect.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\System.Linq.Dynamic.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\Microsoft.Web.Infrastructure.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\Microsoft.Web.XmlTransform.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\System.Web.Razor.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\System.Web.WebPages.Razor.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\System.Web.WebPages.Deployment.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\SmartStore.Core.pdb
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\Autofac.xml
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\EntityFramework.xml
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\EntityFramework.SqlServer.xml
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\EntityFramework.SqlServerCompact.xml
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\Newtonsoft.Json.xml
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\System.Web.Mvc.xml
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\Autofac.Integration.Mvc.xml
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\System.Web.WebPages.xml
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\Fasterflect.xml
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\System.Web.Razor.xml
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\System.Web.WebPages.Razor.xml
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\System.Web.WebPages.Deployment.xml
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\de\System.Web.WebPages.resources.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\de\System.Web.Razor.resources.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\de\System.Web.WebPages.Razor.resources.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\de\System.Web.WebPages.Deployment.resources.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.csprojResolveAssemblyReference.cache
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.Initial.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.AclPerf.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.CurrencyMorePrecision.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.AboutPage.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.ImportExcel.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.Packaging.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.AttributeCombinationPrice.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.BundleYouSaveLabelFix.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.LessValidation.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.FixMaxLength.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.ProductBulkEditInfo.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.FixRes1.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.TaskUpdate.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.ContentDeliveryNetwork.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.Providers.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.BetterReturnRequest.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.MultistorePoll.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.CheckoutCommmentBox.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.CustomerNameFormat.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.NewRes.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.EuEsd.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.V21Final.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.V211.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.WidgetWrapContent.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.DefaultViewModeForCategories.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.QtyUnitsAndOrderItemTaxRate.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.NewIndexesV22.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.LocalizedPropertyIndex.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.V22Res.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.PdfConverterUser.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.Licensing.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.NewCategoryProperties.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.V22Final.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.AutoUpdateRes.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.TempFileCleanupTask.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.SendEmailsManually.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.PdfConverterRoleFix.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.CountryMultistore.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.V222.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.AclRecordCustomerRole.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.PaymentShippingRestrictions.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.Merge.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.PrimaryStoreCurrencyMultiStore.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.QueuedEmailAttachments.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.MessageTemplateAttachments.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.DownloadGuidIndex.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.TransientMedia.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.CustomerTablePerf.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.SortFilterHomepageProducts.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.PaymentMethodDescription.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.WebScheduler.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.Merge2.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.RemoveKeepAlive.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.AddSyncMapping.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.CronExpressions.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.Merge3.resources
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.csproj.GenerateResource.Cache
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.dll
+\\Mac\AllFiles\Volumes\Mac Data\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.pdb
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\SmartStore.Data.dll.config
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\SmartStore.Data.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\SmartStore.Data.pdb
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\Autofac.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\EFCache.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\EntityFramework.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\EntityFramework.SqlServer.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\EntityFramework.SqlServerCompact.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\Microsoft.SqlServer.Smo.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\Newtonsoft.Json.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\SmartStore.Core.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\System.Data.SqlServerCe.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\NuGet.Core.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\System.Web.Mvc.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\Autofac.Integration.Mvc.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\System.Web.WebPages.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\Fasterflect.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\System.Linq.Dynamic.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\Microsoft.Web.Infrastructure.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\Microsoft.Web.XmlTransform.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\System.Web.Razor.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\System.Web.WebPages.Razor.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\System.Web.WebPages.Deployment.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\SmartStore.Core.pdb
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\Autofac.xml
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\EntityFramework.xml
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\EntityFramework.SqlServer.xml
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\EntityFramework.SqlServerCompact.xml
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\Newtonsoft.Json.xml
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\System.Web.Mvc.xml
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\Autofac.Integration.Mvc.xml
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\System.Web.WebPages.xml
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\Fasterflect.xml
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\System.Web.Razor.xml
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\System.Web.WebPages.Razor.xml
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\System.Web.WebPages.Deployment.xml
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\de\System.Web.WebPages.resources.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\de\System.Web.Razor.resources.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\de\System.Web.WebPages.Razor.resources.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\bin\Debug\de\System.Web.WebPages.Deployment.resources.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.csprojResolveAssemblyReference.cache
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.Initial.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.AclPerf.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.CurrencyMorePrecision.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.AboutPage.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.ImportExcel.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.Packaging.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.AttributeCombinationPrice.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.BundleYouSaveLabelFix.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.LessValidation.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.FixMaxLength.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.ProductBulkEditInfo.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.FixRes1.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.TaskUpdate.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.ContentDeliveryNetwork.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.Providers.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.BetterReturnRequest.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.MultistorePoll.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.CheckoutCommmentBox.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.CustomerNameFormat.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.NewRes.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.EuEsd.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.V21Final.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.V211.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.WidgetWrapContent.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.DefaultViewModeForCategories.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.QtyUnitsAndOrderItemTaxRate.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.NewIndexesV22.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.LocalizedPropertyIndex.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.V22Res.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.PdfConverterUser.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.Licensing.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.NewCategoryProperties.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.V22Final.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.AutoUpdateRes.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.TempFileCleanupTask.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.SendEmailsManually.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.PdfConverterRoleFix.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.CountryMultistore.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.V222.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.AclRecordCustomerRole.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.PaymentShippingRestrictions.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.Merge.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.PrimaryStoreCurrencyMultiStore.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.QueuedEmailAttachments.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.MessageTemplateAttachments.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.DownloadGuidIndex.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.TransientMedia.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.CustomerTablePerf.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.SortFilterHomepageProducts.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.PaymentMethodDescription.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.WebScheduler.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.Merge2.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.RemoveKeepAlive.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.AddSyncMapping.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.CronExpressions.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.Migrations.Merge3.resources
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.csproj.GenerateResource.Cache
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.dll
+U:\Repos\MesinkuNew\src\Libraries\SmartStore.Data\obj\Debug\SmartStore.Data.pdb
